@@ -308,12 +308,14 @@ a { color:#fca }
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .headline {
-    width: 200px;
+    width: 170px;
+    background-color: #72BDCA;
   }
   .headline h1 {
     font-size: 1.25em;
+    margin-bottom: 20px;
   }
   .headline p {
-    font-size: 0.9em;
+    display: none;
   }
 }
