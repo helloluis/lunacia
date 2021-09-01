@@ -295,13 +295,25 @@ a { color:#fca }
 }
 
 .legend {
-  z-index: 1000;
-  position: absolute;
-  bottom: 12%;
-  left: 20px;
+  background-color: #222;
+  padding: 6px 0px 4px;
+  text-align: center;
 }
 
 .legend img {
   width: 50px;
   height: 50px;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .headline {
+    width: 200px;
+  }
+  .headline h1 {
+    font-size: 1.25em;
+  }
+  .headline p {
+    font-size: 0.9em;
+  }
 }
