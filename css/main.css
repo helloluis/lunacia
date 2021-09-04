@@ -319,3 +319,9 @@ a { color:#fca }
     display: none;
   }
 }
+
+p.disclaimer {
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0 5%;
+}
